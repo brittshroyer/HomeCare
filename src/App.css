@@ -1,5 +1,4 @@
 body{
-  background: tomato;
   color: black;
 }
 .App{
@@ -10,6 +9,9 @@ body{
 .App-header{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background: #72C483;
+  height: 40vh;
 }
 .App-intro{
   margin-top: 2%;
@@ -18,4 +20,40 @@ body{
   display: inline;
   margin-right: 5%;
   font-size: 20px;
+}
+/*.home{
+  display: flex;
+}*/
+.home{
+  display: flex;
+  height: 60vh;
+}
+.profile-img{
+  height: 100%;
+  width: 30%;
+  background-image: url('../images/HomeCare-headshot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.mission{
+  height: 100%;
+  width: 70%;
+  background-image: url('../images/homecare_hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay{
+  height: inherit;
+  width: 100%;
+  background: rgba(0,0,0, .6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay p{
+  font-size: 35px;
+  color: #E2FAE1;
+  font-family: 'Courgette', cursive;
+
 }
