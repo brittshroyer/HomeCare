@@ -14,7 +14,7 @@ body{
   height: 40vh;
   background-image: url('../images/stethoscope.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 43% 50%;
   border-bottom: 2px solid #1A343B;
   font-family: 'Shrikhand', cursive;
 }
@@ -28,13 +28,14 @@ body{
 .header li{
   /*display: inline;
   margin-right: 5%;*/
-  font-size: 20px;
+  font-size: 24px;
   float: left;
   list-style: none;
   display: block;
   margin-left: 15px;
   text-decoration: none;
   color: #1A343B;
+
 }
 li :visited { text-decoration: none; }
 li :hover { text-decoration: none; }
