@@ -10,17 +10,36 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #72C483;
+  background: #FDFDFD;
   height: 40vh;
+  background-image: url('../images/stethoscope.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 2px solid #1A343B;
+  font-family: 'Shrikhand', cursive;
+}
+.App-header h1{
+  font-size: 45px;
+  color: #1A343B;
 }
 .App-intro{
   margin-top: 2%;
 }
 .header li{
-  display: inline;
-  margin-right: 5%;
+  /*display: inline;
+  margin-right: 5%;*/
   font-size: 20px;
+  float: left;
+  list-style: none;
+  display: block;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1A343B;
 }
+li :visited { text-decoration: none; }
+li :hover { text-decoration: none; }
+li :focus { text-decoration: none; }
+li hover, li :active { text-decoration: none; }
 /*.home{
   display: flex;
 }*/
@@ -42,6 +61,7 @@ body{
   background-image: url('../images/homecare_hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  border-left: 1px solid #1A343B;
 }
 .overlay{
   height: inherit;
@@ -52,8 +72,8 @@ body{
   align-items: center;
 }
 .overlay p{
-  font-size: 35px;
-  color: #E2FAE1;
+  font-size: 25px;
+  color: #FDFDFD;
   font-family: 'Courgette', cursive;
-
 }
+/*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/

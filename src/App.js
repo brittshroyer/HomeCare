@@ -8,14 +8,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1>Patty's Concierge Nursing</h1>
+          <h1>Patty's <br></br> Concierge Nursing</h1>
           <p className="App-intro">
             <ul className="header">
-              <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
-              <li><Link to="/about" activeClassName="active">Patty's Bio</Link></li>
-              <li><Link to="/approach" activeClassName="active">Approach</Link></li>
-              <li><Link to="/testimonials" activeClassName="active">Testimonials</Link></li>
-              <li><Link to="/contact" activeClassName="active">Contact</Link></li>
+              <li className="step1"><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
+              <li className="step2"><Link to="/about" activeClassName="active">Patty's Bio</Link></li>
+              <li className="step3"><Link to="/approach" activeClassName="active">Approach</Link></li>
+              <li className="step4"><Link to="/testimonials" activeClassName="active">Testimonials</Link></li>
+              <li className="step5"><Link to="/contact" activeClassName="active">Contact</Link></li>
             </ul>
           </p>
         </div>
