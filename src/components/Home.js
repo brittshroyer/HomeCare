@@ -4,32 +4,32 @@ class Home extends Component{
   constructor(props){
     super(props);
     this.state = {
-      service: []
+      service: ''
     }
   }
-  componentWillMount(){
-    var services = ['Delivering professional and personalized care to your loved ones', 'Home visits with a personalized health plan', 'Transition Assistace', 'Advocacy and Guidance', 'Respite Care']
-    var i=0;
-    var currentItem = services[i];
-    this.setState(
+  componentDidMount(){
+    var services = ['Delivering professional and personalized care to your loved ones','Home visits with a personalized health plan', 'Transition Assistace', 'Advocacy and Guidance', 'Respite Care']
+    const i=0;
+    const currentItem = services[i];
+    this.setState.bind(this)({
       service: currentItem
-    )
+    })
   }
 
-  componentDidMount(){
+  componentDidUpdate(){
     var services = ['Delivering professional and personalized care to your loved ones', 'Home visits with a personalized health plan', 'Transition Assistace', 'Advocacy and Guidance', 'Respite Care']
-    let i = 0;
+    let i = 1;
     setInterval(function(){
-      var currentService = services[i];
-      this.setState(
-        service: currentService
-      );
+      console.log('set interval working');
+      const currentService = services[i];
       i++;
       if(i>=services.length){
         i = 0;
       }
+      this.setState.bind(this)({
+        service: currentService
+      })
     }, 2000);
-
   }
   render(){
     return(
@@ -37,11 +37,11 @@ class Home extends Component{
         <div className="profile-img"></div>
         <div className="mission">
           <div className="overlay">
-            {this.state.service}
+            <p>{this.state.service}</p>
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
