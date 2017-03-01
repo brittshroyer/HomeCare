@@ -4,11 +4,11 @@ class Home extends Component{
   constructor(props){
     super(props);
     this.state = {
-      service: ''
+      service: 'Delivering professional and personalized care to your loved ones'
     }
   }
   componentDidMount(){
-    var services = ['Delivering professional and personalized care to your loved ones','Home visits with a personalized health plan', 'Transition Assistace', 'Advocacy and Guidance', 'Respite Care']
+    var services = ['Home Visits', 'Personalized Health Plan', 'Transition Assistance', 'Advocacy and Guidance', 'Respite Care', 'Delivering professional and personalized care to your loved ones']
     let i=0;
     var that = this;
     setInterval(function(){

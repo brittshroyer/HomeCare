@@ -10,7 +10,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 40vh;
+  height: 35vh;
   background-image: url('../images/stethoscope.png');
   background-repeat: no-repeat;
   background-position: 43% 50%;
@@ -45,7 +45,7 @@ li hover, li :active { text-decoration: none; }
 }*/
 .home{
   display: flex;
-  height: 60vh;
+  height: 65vh;
 }
 .profile-img{
   height: 100%;
@@ -73,7 +73,7 @@ li hover, li :active { text-decoration: none; }
   align-items: center;
 }
 .overlay p{
-  font-size: 25px;
+  font-size: 30px;
   color: #FDFDFD;
   font-family: 'Courgette', cursive;
 }
@@ -81,15 +81,14 @@ li hover, li :active { text-decoration: none; }
   position: relative;
 }
 .background{
-  height: 60vh;
+  height: 65vh;
   position: relative;
 }
 .bioSummary{
   background: #0894CD;
-  height: 60vh;
+  height: 65vh;
   width: 70%;
   position: absolute;
-
   right: 0;
   top: 0;
   display: flex;
