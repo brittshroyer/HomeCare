@@ -9,29 +9,22 @@ class Home extends Component{
   }
   componentDidMount(){
     var services = ['Delivering professional and personalized care to your loved ones','Home visits with a personalized health plan', 'Transition Assistace', 'Advocacy and Guidance', 'Respite Care']
-    const i=0;
-    const currentItem = services[i];
-    this.setState.bind(this)({
-      service: currentItem
-    })
-  }
-
-  componentDidUpdate(){
-    var services = ['Delivering professional and personalized care to your loved ones', 'Home visits with a personalized health plan', 'Transition Assistace', 'Advocacy and Guidance', 'Respite Care']
-    let i = 1;
+    let i=0;
+    var that = this;
     setInterval(function(){
       console.log('set interval working');
       const currentService = services[i];
+      that.setState({
+        service: currentService
+      })
       i++;
       if(i>=services.length){
         i = 0;
       }
-      this.setState.bind(this)({
-        service: currentService
-      })
-    }, 2000);
+    }, 4000);
   }
   render(){
+    console.log('this', this.state.service);
     return(
       <div className="home">
         <div className="profile-img"></div>
@@ -44,5 +37,4 @@ class Home extends Component{
     )
   }
 }
-
 export default Home;
