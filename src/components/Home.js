@@ -4,11 +4,11 @@ class Home extends Component{
   constructor(props){
     super(props);
     this.state = {
-      service: 'Delivering professional and personalized care to your loved ones'
+      service: 'Personal and Professional Care'
     }
   }
   componentDidMount(){
-    var services = ['Home Visits', 'Personalized Health Plan', 'Transition Assistance', 'Advocacy and Guidance', 'Respite Care', 'Delivering professional and personalized care to your loved ones']
+    var services = ['Home Visits', 'Personalized Health Plan', 'Transition Assistance', 'Hospital Stay Enhancement', 'Advocacy and Guidance', 'Respite Care']
     let i=0;
     var that = this;
     setInterval(function(){
@@ -21,7 +21,7 @@ class Home extends Component{
       if(i>=services.length){
         i = 0;
       }
-    }, 4000);
+    }, 3000);
   }
   render(){
     console.log('this', this.state.service);
@@ -32,6 +32,9 @@ class Home extends Component{
           <div className="overlay">
             <p>{this.state.service}</p>
           </div>
+        </div>
+        <div className="footer">
+          <p>Delivering professional and personalized healthcare to your loved ones.</p>
         </div>
       </div>
     )

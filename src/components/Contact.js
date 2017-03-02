@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 class Contact extends Component{
   render(){
     return(
@@ -9,9 +10,8 @@ class Contact extends Component{
           <p>440-666-0070</p>
           <p>pcshroyer@gmail.com</p>
         </div>
-
         <div className="emailForm">
-          <form method="post" action="britt.shroyer@gmail.com">
+          <form method="post" action="acknowledge.php">
             <label for="name">Name:</label>
             <input type="text" name="name" id="name"></input>
 

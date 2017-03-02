@@ -10,16 +10,23 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 35vh;
+  height: 30vh;
+  background: #b19cd9;
+  background: #E6E6FA;
+  /*background: #D5BCFF;*/
   background-image: url('../images/stethoscope.png');
   background-repeat: no-repeat;
   background-position: 43% 50%;
   border-bottom: 2px solid #1A343B;
   font-family: 'Shrikhand', cursive;
+  font-family: 'Courgette', cursive;
+
 }
 .App-header h1{
-  font-size: 45px;
+  font-size: 50px;
   color: #1A343B;
+  font-weight: bold;
+  /*text-shadow: 2px 1px 1px #E6E6FA;*/
 }
 .App-intro{
   margin-top: 2%;
@@ -27,7 +34,7 @@ body{
 .header li{
   /*display: inline;
   margin-right: 5%;*/
-  font-size: 24px;
+  font-size: 26px;
   float: left;
   list-style: none;
   display: block;
@@ -45,7 +52,7 @@ li hover, li :active { text-decoration: none; }
 }*/
 .home{
   display: flex;
-  height: 65vh;
+  height: 60vh;
 }
 .profile-img{
   height: 100%;
@@ -73,20 +80,21 @@ li hover, li :active { text-decoration: none; }
   align-items: center;
 }
 .overlay p{
-  font-size: 30px;
+  font-size: 35px;
   color: #FDFDFD;
   font-family: 'Courgette', cursive;
+  text-shadow: 3px 1px 1px black;
 }
 .content{
   position: relative;
 }
 .background{
-  height: 65vh;
+  /*height: 45vh;*/
   position: relative;
 }
 .bioSummary{
   background: #0894CD;
-  height: 65vh;
+  /*height: 45vh;*/
   width: 70%;
   position: absolute;
   right: 0;
@@ -109,5 +117,18 @@ li hover, li :active { text-decoration: none; }
   position: absolute;
   background-size: cover;
   background-position: center;
+}
+.footer{
+  width: 100%;
+  height: 10vh;
+  background: #1E1A24;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E6E6FA;
+  font-size: 25px;
+  font-family: 'Courgette', cursive;
 }
 /*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/

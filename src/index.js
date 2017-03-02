@@ -10,6 +10,11 @@ import About from './components/About.js';
 import Contact from './components/Contact.js';
 
 
+
+
+
+
+
 ReactDOM.render(
   (<Router history={hashHistory}>
     <Route path="/" component={App}>
