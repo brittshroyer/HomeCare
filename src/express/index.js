@@ -3,6 +3,7 @@ require('dotenv').config();
 var express = require('express');
 var nodemailer = require('nodemailer');
 
+var app = express();
 var router = express.Router();
 app.use('/sayHello', router);
 router.post('/', handleSayHello);
@@ -11,8 +12,8 @@ function handleSayHello(req, res){
   var transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: EMAIL,
-      pass: PASSWORD
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD
     }
   });
 
