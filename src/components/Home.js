@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Footer from './Footer';
+import ProfilePic from './ProfilePic';
 
 class Home extends Component{
   constructor(props){
@@ -27,15 +29,13 @@ class Home extends Component{
     console.log('this', this.state.service);
     return(
       <div className="home">
-        <div className="profile-img"></div>
+        <ProfilePic />
         <div className="mission">
           <div className="overlay">
             <p>{this.state.service}</p>
           </div>
         </div>
-        <div className="footer">
-          <p>Delivering professional and personalized healthcare to your loved ones.</p>
-        </div>
+      <Footer />
       </div>
     )
   }
