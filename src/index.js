@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './App.css';
+import './Mediaqueries.css';
 
 import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 

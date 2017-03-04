@@ -5,7 +5,7 @@ class Contact extends Component{
   render(){
     return(
       <div className="contact">
-        <div className="infoContainer col-md-6">
+        <div className="infoContainer">
           <div className="myInfo">
             <h2>Get In Touch</h2>
             <i className="fa fa-phone fa-1x" aria-hidden="true"></i>&nbsp;&nbsp;<p>440-666-0070</p><br/>
