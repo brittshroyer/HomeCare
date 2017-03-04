@@ -5,10 +5,12 @@ class Contact extends Component{
   render(){
     return(
       <div>
-        <div className="myInfo">
-          <h2>Get In Touch</h2>
-          <p>440-666-0070</p>
-          <p>pcshroyer@gmail.com</p>
+        <div className="infoContainer">
+          <div className="myInfo">
+            <h2>Get In Touch</h2>
+            <i className="fa fa-phone fa-1x" aria-hidden="true"></i>&nbsp;&nbsp;<p>440-666-0070</p><br/>
+            <i className="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;<p>pcshroyer@gmail.com</p>
+          </div>
         </div>
         <div className="emailForm">
           <form method="post" action="acknowledge.php">
