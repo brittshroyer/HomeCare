@@ -12,7 +12,7 @@ class Contact extends Component{
             <i className="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;<p>pcshroyer@gmail.com</p>
           </div>
         </div>
-        <form method="post" action="acknowledge.php" className="contactSection">
+        <form method="Get" action="mailto:pcshroyer@gmail.com" className="contactSection">
           <div className="name-email">
             <div className="enterName">
               <label for="name">Name:</label>
