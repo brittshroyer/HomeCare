@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 var Menu = require('react-burger-menu').slide;
 
 class Hamburger extends Component {
+  showSettings(e){
+    e.preventDefault();
+  }
   render(){
     return(
       <Menu>

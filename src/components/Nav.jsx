@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link, IndexLink} from 'react-router';
-import Hamburger from './Hamburger.jsx';
+
 
 class Nav extends Component {
   render(){
@@ -16,7 +16,7 @@ class Nav extends Component {
             <li className="step5"><Link to="/contact" activeClassName="active">Contact</Link></li>
           </ul>
         </p>
-        <Hamburger />
+
       </div>
     )
   }
