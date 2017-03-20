@@ -210,5 +210,8 @@ li hover, li :active { text-decoration: none; }
   opacity: .85;
   border: 1px solid black;
 }
+.nav-links{
+  /*display: none;*/
+}
 
 /*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/
