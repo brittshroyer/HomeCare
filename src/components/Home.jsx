@@ -26,7 +26,6 @@ class Home extends Component{
     }, 3000);
   }
   render(){
-    console.log('this', this.state.service);
     return(
       <div className="home">
         <ProfilePic />

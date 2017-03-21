@@ -29,9 +29,10 @@ body{
 }
 .App-header h1{
   font-size: 60px;
-  color: #1A343B;
+  color: #2E0854;
   font-weight: bold;
   margin-left: 10px;
+  text-shadow: 2px 2px 2px #444;
   /*text-shadow: 2px 1px 1px #E6E6FA;*/
 }
 .App-intro{
@@ -46,13 +47,13 @@ body{
   display: block;
   margin-left: 15px;
   text-decoration: none;
-  color: #1A343B;
+  color: white;
 
 }
-li :visited { text-decoration: none; }
+li :visited { text-decoration: none; color: black; }
 li :hover { text-decoration: none; }
 li :focus { text-decoration: none; }
-li hover, li :active { text-decoration: none; }
+li :active { text-decoration: none; color: black;  }
 /*.home{
   display: flex;
 }*/
@@ -274,6 +275,21 @@ li hover, li :active { text-decoration: none; }
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+.active{
+  background: #696969;
+  background: #8A8596;
+  display: block;
+  width: 105%;
+  border-radius: 5% 5% 5% 5%;
+  text-align: center;
+  position: relative;
+  color: black;
+  box-shadow: 2px 4px 4px black;
+
+}
+li{
+  color: red;
 }
 
 /*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/
