@@ -3,7 +3,7 @@
       background-image: none;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
   .App-intro{
     display: none;
   }

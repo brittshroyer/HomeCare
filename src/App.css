@@ -1,6 +1,7 @@
 body{
   color: black;
   font-family: 'Courgette', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 .App{
   display: flex;
@@ -23,6 +24,7 @@ body{
   border-bottom: 2px solid #1E1A24;
   font-family: 'Shrikhand', cursive;
   font-family: 'Courgette', cursive;
+  font-family: 'Raleway', sans-serif;
 
 }
 .App-header h1{
@@ -56,7 +58,7 @@ li hover, li :active { text-decoration: none; }
 }*/
 .home{
   display: flex;
-  height: 60vh;
+  height: 65vh;
 }
 .profile-img{
   height: 65vh;;
@@ -86,7 +88,7 @@ li hover, li :active { text-decoration: none; }
 .overlay p{
   font-size: 35px;
   color: #FDFDFD;
-  font-family: 'Courgette', cursive;
+  font-family: 'Raleway', sans-serif;
   text-shadow: 3px 1px 1px black;
 }
 .content{
@@ -134,7 +136,7 @@ li hover, li :active { text-decoration: none; }
   justify-content: center;
   color: #E6E6FA;
   font-size: 25px;
-  font-family: 'Courgette', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 .myInfo{
   font-size: 30px;
@@ -164,7 +166,7 @@ li hover, li :active { text-decoration: none; }
 
 }
 .contactSection{
-  height: 70vh;
+  height: 75vh;
   width: 65vw;
   display: flex;
   justify-content: center;
@@ -216,7 +218,7 @@ li hover, li :active { text-decoration: none; }
 }
 .menu-item{
   line-height: 50px;
-  font-size: 30px;
+  font-size: 20px;
   background: #444;
   text-align: center;
   color: #fffce1;
@@ -255,7 +257,7 @@ li hover, li :active { text-decoration: none; }
 .bm-menu {
   background: #373a47;
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  font-size: .5em;
 }
 
 /* Morph shape necessary with bubble or elastic */

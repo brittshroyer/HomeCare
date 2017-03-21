@@ -12,9 +12,11 @@ class Hamburger extends Component {
   }
   render(){
     return(
-      <Menu right noOverlay width= { 250 }>
+      <Menu right noOverlay width= { 220 }>
         <RadiumLink className="menu-item" href="/#">Home</RadiumLink>
-        <RadiumLink className="menu-item" href="/#/about">About</RadiumLink>
+        <RadiumLink className="menu-item" href="/#/about">Patty's Bio</RadiumLink>
+        <RadiumLink className="menu-item" href="/#/approach">Approach</RadiumLink>
+        <RadiumLink className="menu-item" href="/#/testimonials">Testimonials</RadiumLink>
         <RadiumLink className="menu-item" href="/#/contact">Contact</RadiumLink>
       </Menu>
     )
