@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import {Link, IndexLink} from 'react-router';
-import Hamburger from '../components/Hamburger';
-
 
 class Nav extends Component {
   render(){
     return(
       <div className="App-header">
         <h1>Relief RN</h1>
-        <div className="nav-links">
-          <Hamburger />
-        </div>
         <p className="App-intro">
           <ul className="header">
             <li className="step1"><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
