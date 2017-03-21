@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Link, IndexLink} from 'react-router';
 
-
 class Nav extends Component {
   render(){
     return(
@@ -16,7 +15,6 @@ class Nav extends Component {
             <li className="step5"><Link to="/contact" activeClassName="active">Contact</Link></li>
           </ul>
         </p>
-
       </div>
     )
   }

@@ -1,6 +1,7 @@
 body{
   color: black;
   font-family: 'Courgette', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 .App{
   display: flex;
@@ -11,24 +12,27 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 30vh;
+  height: 25vh;
   background: #b19cd9;
   background: #E6E6FA;
   /*background: #D5BCFF;*/
   background-image: url('../images/stethoscope.png');
   background-repeat: no-repeat;
-  background-position: 43% 50%;
+  background-position: 40% 50%;
+  background-size: 10%;
   background-attachment: local;
   border-bottom: 2px solid #1E1A24;
   font-family: 'Shrikhand', cursive;
   font-family: 'Courgette', cursive;
+  font-family: 'Raleway', sans-serif;
 
 }
 .App-header h1{
   font-size: 60px;
-  color: #1A343B;
+  color: #2E0854;
   font-weight: bold;
   margin-left: 10px;
+  text-shadow: 2px 2px 2px #444;
   /*text-shadow: 2px 1px 1px #E6E6FA;*/
 }
 .App-intro{
@@ -43,22 +47,22 @@ body{
   display: block;
   margin-left: 15px;
   text-decoration: none;
-  color: #1A343B;
+  color: white;
 
 }
-li :visited { text-decoration: none; }
+li :visited { text-decoration: none; color: black; }
 li :hover { text-decoration: none; }
 li :focus { text-decoration: none; }
-li hover, li :active { text-decoration: none; }
+li :active { text-decoration: none; color: black;  }
 /*.home{
   display: flex;
 }*/
 .home{
   display: flex;
-  height: 60vh;
+  height: 65vh;
 }
 .profile-img{
-  height: 60vh;;
+  height: 65vh;;
   width: 30%;
   background-image: url('../images/HomeCare-headshot.jpg');
   background-repeat: no-repeat;
@@ -85,7 +89,7 @@ li hover, li :active { text-decoration: none; }
 .overlay p{
   font-size: 35px;
   color: #FDFDFD;
-  font-family: 'Courgette', cursive;
+  font-family: 'Raleway', sans-serif;
   text-shadow: 3px 1px 1px black;
 }
 .content{
@@ -98,7 +102,7 @@ li hover, li :active { text-decoration: none; }
 }
 .bioSummary{
   background: #8A8596;
-  height: 60vh;
+  height: 65vh;
   width: 70%;
   /*position: absolute;*/
   right: 0;
@@ -133,7 +137,7 @@ li hover, li :active { text-decoration: none; }
   justify-content: center;
   color: #E6E6FA;
   font-size: 25px;
-  font-family: 'Courgette', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 .myInfo{
   font-size: 30px;
@@ -163,7 +167,7 @@ li hover, li :active { text-decoration: none; }
 
 }
 .contactSection{
-  height: 70vh;
+  height: 75vh;
   width: 65vw;
   display: flex;
   justify-content: center;
@@ -209,6 +213,107 @@ li hover, li :active { text-decoration: none; }
   background-color: #E6E6FA;
   opacity: .85;
   border: 1px solid black;
+}
+.nav-links{
+
+}
+.menu-item{
+  line-height: 50px;
+  font-size: 20px;
+  background: #444;
+  text-align: center;
+  color: #fffce1;
+}
+.bm-menu{
+  background: #444;
+}
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+  visibility: hidden;
+  margin-bottom: 30px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: .5em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.active{
+  background: #696969;
+  background: #8A8596;
+  display: block;
+  width: 105%;
+  border-radius: 5% 5% 5% 5%;
+  text-align: center;
+  position: relative;
+  color: black;
+  box-shadow: 2px 4px 4px black;
+
+}
+li{
+  color: red;
+}
+.left-ribbon{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  top: -115px;
+  left: -115px;
+  background: rgba(0,0,0,0);
+  background: #1E1A24;
+  background: #444;
+  box-shadow: 1px 1px 1px black;
+  /*border-radius: 50%;*/
+}
+.right-ribbon{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  top: -125px;
+  right: -125px;
+  background: rgba(0,0,0,0);
+  /*border-bottom: 12px solid #1E1A24;*/
+  border-radius: 50%;
 }
 
 /*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/
