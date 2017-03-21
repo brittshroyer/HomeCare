@@ -214,18 +214,19 @@ li :active { text-decoration: none; color: black;  }
   opacity: .85;
   border: 1px solid black;
 }
-.nav-links{
 
-}
 .menu-item{
   line-height: 50px;
   font-size: 20px;
-  background: #444;
   text-align: center;
   color: #fffce1;
 }
+.menu-item :hover{
+  color: black;
+
+}
 .bm-menu{
-  background: #444;
+  /*background: #444;*/
 }
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -288,9 +289,7 @@ li :active { text-decoration: none; color: black;  }
   box-shadow: 2px 4px 4px black;
 
 }
-li{
-  color: red;
-}
+
 .left-ribbon{
   position: absolute;
   width: 200px;
@@ -299,8 +298,8 @@ li{
   top: -115px;
   left: -115px;
   background: rgba(0,0,0,0);
-  background: #1E1A24;
   background: #444;
+  background: #1E1A24;
   box-shadow: 1px 1px 1px black;
   /*border-radius: 50%;*/
 }

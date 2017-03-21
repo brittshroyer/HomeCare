@@ -6,8 +6,8 @@ import Hamburger from './components/Hamburger';
 import LeftRibbon from './components/LeftRibbon';
 import RightRibbon from './components/RightRibbon';
 
-
 class App extends Component {
+
   render() {
     return (
       <div className="App">
