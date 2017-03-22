@@ -9,14 +9,9 @@ let RadiumLink = Radium(Link);
 class Hamburger extends Component {
 
   render(){
-    var isMenuOpen = function(state) {
-      console.log(state.isOpen);
-      return state.isOpen;
-    }
-    console.log('yo', isMenuOpen );
     return(
-      <Menu right noOverlay width={ 220 } onStateChange={ isMenuOpen }>
-        <RadiumLink onClick={ isMenuOpen } className="menu-item" href="/#">Home</RadiumLink>
+      <Menu right noOverlay width={ 220 } isOpen={ false }>
+        <RadiumLink className="menu-item" href="/#">Home</RadiumLink>
         <RadiumLink className="menu-item" href="/#/about">Patty's Bio</RadiumLink>
         <RadiumLink className="menu-item" href="/#/approach">Approach</RadiumLink>
         <RadiumLink className="menu-item" href="/#/testimonials">Testimonials</RadiumLink>

@@ -235,7 +235,7 @@ li :active { text-decoration: none; color: black;  }
   height: 30px;
   right: 36px;
   top: 36px;
-  visibility: hidden;
+  display: none;
   margin-bottom: 30px;
 }
 

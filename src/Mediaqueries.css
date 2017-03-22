@@ -8,7 +8,7 @@
     display: none;
   }
   .bm-burger-button{
-    visibility: visible;
+    display: block;
   }
   .left-ribbon{
     visibility: hidden;
