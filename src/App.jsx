@@ -4,7 +4,7 @@ import './express/index.js';
 import Nav from './components/Nav';
 import Hamburger from './components/Hamburger';
 import LeftRibbon from './components/LeftRibbon';
-import RightRibbon from './components/RightRibbon';
+
 
 class App extends Component {
 
@@ -12,7 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <LeftRibbon />
-        <RightRibbon />
         <Hamburger />
         <Nav />
         <div className="content">

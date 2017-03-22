@@ -127,7 +127,7 @@ li :active { text-decoration: none; color: black;  }
   background-position: center;
 }
 .footer{
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   background: #1E1A24;
   position: fixed;
@@ -230,7 +230,7 @@ li :active { text-decoration: none; color: black;  }
 }
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 36px;
   height: 30px;
   right: 36px;

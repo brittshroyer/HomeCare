@@ -14,7 +14,6 @@ class Home extends Component{
     let i=0;
     var that = this;
     setInterval(function(){
-      console.log('set interval working');
       const currentService = services[i];
       that.setState({
         service: currentService
