@@ -2,6 +2,9 @@
   .App-header{
       background-image: none;
   }
+  #title{
+    margin-left: 0;
+  }
 }
 @media only screen and (max-width: 950px) {
   .App-intro{
@@ -16,6 +19,9 @@
   .right-ribbon{
     visibility: hidden;
   }
+  #title{
+    display: none;
+  }
 }
 @media only screen and (max-width: 700px){
   .App-header h1{
@@ -23,7 +29,7 @@
     margin-left: 30px;
   }
   .App-header{
-    height: 20vh;
+    height: 15vh;
     display: flex;
     justify-content: flex-start;
   }
@@ -31,5 +37,33 @@
     width: 30px;
     height: 25px;
     top: 7%;
+  }
+  .home{
+    height: 70vh;
+  }
+  .mission{
+    width: 100%;
+    background-position: center;
+    height: 70vh;
+  }
+  .overlay{
+    height: 70vh;
+  }
+  .profile-img{
+    width: 0;
+    height: 0;
+  }
+  .overlay p {
+    font-size: 25px;
+  }
+  .footer{
+    height: 15vh;
+    margin-top: 0;
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+  }
+  #mobile-footer-title{
+    display: inline-block;
   }
 }

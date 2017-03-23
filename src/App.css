@@ -28,8 +28,9 @@ body{
 
 }
 .App-header h1{
-  font-size: 60px;
+  font-size: 65px;
   color: #2E0854;
+  color: #447299;
   font-weight: bold;
   margin-left: 10px;
   text-shadow: 2px 2px 2px #444;
@@ -47,13 +48,13 @@ body{
   display: block;
   margin-left: 15px;
   text-decoration: none;
-  color: white;
+
 
 }
-li :visited { text-decoration: none; color: black; }
-li :hover { text-decoration: none; }
-li :focus { text-decoration: none; }
-li :active { text-decoration: none; color: black;  }
+li :visited { text-decoration: none; color: #447299; }
+li :hover { text-decoration: none; color: black;}
+li :focus { text-decoration: none; color: black; }
+li :active { text-decoration: none; color: black; }
 /*.home{
   display: flex;
 }*/
@@ -137,7 +138,7 @@ li :active { text-decoration: none; color: black;  }
   bottom: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   color: #E6E6FA;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
@@ -317,11 +318,11 @@ li :active { text-decoration: none; color: black;  }
   /*border-bottom: 12px solid #1E1A24;*/
   border-radius: 50%;
 }
-.professional-title, .name{
-  margin: 20px;
-  font-size: 1.75em;
-  font-size: 24px;
-  color: white;
+#title{
+  margin-left: -60px;
+}
+#mobile-footer-title{
+  display: none;
 }
 
 /*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/
