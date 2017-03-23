@@ -68,6 +68,9 @@ li :active { text-decoration: none; color: black;  }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 
 }
 .mission{
@@ -313,6 +316,12 @@ li :active { text-decoration: none; color: black;  }
   background: rgba(0,0,0,0);
   /*border-bottom: 12px solid #1E1A24;*/
   border-radius: 50%;
+}
+.professional-title, .name{
+  margin: 20px;
+  font-size: 1.75em;
+  font-size: 24px;
+  color: white;
 }
 
 /*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/
