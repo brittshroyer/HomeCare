@@ -225,7 +225,7 @@ li :active { text-decoration: none; color: black; }
 
 .menu-item{
   line-height: 50px;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   color: #fffce1;
 }
@@ -283,7 +283,7 @@ li :active { text-decoration: none; color: black; }
 
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: black;
 }
 .active{
   background: #696969;
@@ -334,6 +334,9 @@ li :active { text-decoration: none; color: black; }
 .bioSummary h2{
   /*margin-bottom: 20px;*/
   display: none;
+}
+#outer-container{
+  background: #444;
 }
 
 /*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/

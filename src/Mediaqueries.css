@@ -28,6 +28,10 @@
 }
 /*iphone 6 plus*/
 @media only screen and (max-width: 414px){
+  .bm-burger-button{
+    top: 3%;
+    right: 6%;
+  }
   .mission{
     width: 100%;
     background-position: center;
