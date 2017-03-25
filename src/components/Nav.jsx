@@ -9,7 +9,7 @@ class Nav extends Component {
         <p className="App-intro">
           <ul className="header">
             <li className="step1"><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
-            <li className="step2"><Link to="/about" activeClassName="active">Patty's Bio</Link></li>
+            <li className="step2"><Link to="/backstory" activeClassName="active">Backstory</Link></li>
             <li className="step3"><Link to="/approach" activeClassName="active">Approach</Link></li>
             <li className="step4"><Link to="/testimonials" activeClassName="active">Testimonials</Link></li>
             <li className="step5"><Link to="/contact" activeClassName="active">Contact</Link></li>

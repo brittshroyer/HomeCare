@@ -26,13 +26,8 @@
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 375px){
-  .bioSummary{
-    width: 100%;
-    height: 105vh;
-    overflow: hidden;
-    text-align: center;
-  }
+/*iphone 6 plus*/
+@media only screen and (max-width: 414px){
   .mission{
     width: 100%;
     background-position: center;
@@ -41,7 +36,7 @@
     width: 0;
     height: 0;
   }
-  .bioSummary h2{
+  #mobile-footer-title{
     display: inline-block;
   }
   .footer{
@@ -51,9 +46,28 @@
     flex-direction: column;
     text-align: center;
   }
-  #mobile-footer-title{
-    display: inline-block;
+  .bioSummary{
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+    text-align: center;
   }
+  .bioSummary h2{
+    display: inline-block;
+    margin: -100px 0 25px 0;
+  }
+  .App-header{
+    height: 20vh;
+    justify-content: flex-start;
+  }
+  .App-header h1{
+    margin-left: 20px;
+  }
+
+}
+/*iphone 6*/
+@media only screen and (max-width: 375px){
+
   .App-header h1{
     font-size: 45px;
     margin-left: 30px;
@@ -66,11 +80,18 @@
   .bm-burger-button{
     width: 30px;
     height: 25px;
-    top: 5%;
+    top: 3%;
+    right: 6%;
   }
   .bioSummary h2{
-    margin: -115px 0 20px 0;
+    margin: -100px 0 20px 0;
     font-size: 24px;
+  }
+  .home{
+    height: 70vh;
+  }
+  .bioSummary{
+    height: 110vh;
   }
 }
 
@@ -78,19 +99,20 @@
 
 @media only screen and (max-width: 320px){
 
-  .home{
-    height: 70vh;
+
+  .bm-burger-button{
+    height: 20px;
+    width: 24px;
   }
 
   .bioSummary p{
     font-size: 13.5px;
-
   }
   .bioSummary h2{
     display: inline-block;
-    margin-top: -100px;
-    font-size: 25px;
-    margin-bottom: 20px;
+    margin-top: -85px;
+    font-size: 22px;
+    margin-bottom: 15px;
   }
   .overlay{
     height: 70vh;

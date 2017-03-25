@@ -31,7 +31,7 @@ body{
 .App-header h1{
   font-size: 65px;
   color: #2E0854;
-  color: #447299;
+  color: #4385CF;
   font-weight: bold;
   margin-left: 10px;
   text-shadow: 2px 2px 2px #444;
@@ -90,6 +90,7 @@ li :active { text-decoration: none; color: black; }
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .overlay p{
   font-size: 35px;
