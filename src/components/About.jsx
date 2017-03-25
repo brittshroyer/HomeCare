@@ -9,10 +9,10 @@ class About extends Component{
       <div className="background">
         <ProfilePic />
         <div className="bioSummary">
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h2 className="backstory-title">Backstory</h2>
+          <p className="backstory-text">
+          18 months ago, I was asked to look in on an elderly woman who had just returned home following hip surgery. Her children lived afar and wanted peace of mind. I would oversee her transition home and she would quickly resume her wholly independent lifestyle. Within one week it became clear that she needed more care than anticipated. The agency tasked with managing her rehab and making nursing visits was unaccommodating. Scheduling became a problem and she was stressed by all of the commotion. I felt uneasy leaving her alone. She was somewhat independent, but clearly needed ongoing nursing oversight. In addition to her immediate needs, she had several chronic health problems that, if not managed properly, threatened to undermine a successful recovery.
+          Together, with her and her family, we crafted a more comprehensive arrangement and developed a care plan designed to meet her needs: a plan that allowed her to remain at home as she wished.
           </p>
         </div>
         <Footer />

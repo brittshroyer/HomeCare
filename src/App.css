@@ -26,6 +26,7 @@ body{
   font-family: 'Courgette', cursive;
   font-family: 'Raleway', sans-serif;
 
+
 }
 .App-header h1{
   font-size: 65px;
@@ -112,9 +113,11 @@ li :active { text-decoration: none; color: black; }
   right: 0;
   top: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 10px;
+  overflow: hidden;
 }
 .bioSummary p{
   width: 90%;
@@ -322,6 +325,13 @@ li :active { text-decoration: none; color: black; }
   margin-left: -60px;
 }
 #mobile-footer-title{
+  display: none;
+}
+.backstory-text{
+  font-size: 18px;
+}
+.bioSummary h2{
+  /*margin-bottom: 20px;*/
   display: none;
 }
 
