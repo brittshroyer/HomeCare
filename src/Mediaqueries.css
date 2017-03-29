@@ -55,7 +55,7 @@
     flex-direction: column;
     text-align: center;
   }
-  .approach{
+  .approach, .services-div{
     height: 85vh;
   }
   .bioSummary{
@@ -78,7 +78,27 @@
   .case, .backstory-text{
     font-size: 14px;
   }
-
+  .service{
+    height: 100px;
+    width: 100px;
+  }
+  .services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-div, .services-icons{
+    flex-direction: column;
+    height: 85vh;
+    width: 50vw;
+  }
+  .services-icons{
+    justify-content: space-around;
+    align-items: center;
+  }
+  .circle p{
+    font-size: .85em;
+  }
 }
 /*iphone 6*/
 @media only screen and (max-width: 375px){
@@ -113,6 +133,9 @@
   }
   .case{
     font-size: 12px;
+  }
+  .footer-tag{
+    margin-top: 2%;
   }
 }
 

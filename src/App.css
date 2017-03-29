@@ -29,9 +29,9 @@ body{
 
 }
 .App-header h1{
-  font-size: 65px;
+  font-size: 75px;
   color: #2E0854;
-  color: #4385CF;
+  color: #551A8B;
   font-weight: bold;
   margin-left: 10px;
   text-shadow: 2px 2px 2px #444;
@@ -339,9 +339,7 @@ li :active { text-decoration: none; color: black; }
 #outer-container{
   background: #444;
 }
-.footer-tag{
-  margin-top: 2%;
-}
+
 .illness{
   font-style: italic;
 }
@@ -365,5 +363,65 @@ li :active { text-decoration: none; color: black; }
   font-size: 20px;
   margin: 1% 30px 2% 30px;
   /*margin: -75px 20px -20px 20px;*/
+}
+.services-div{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  overflow: scroll;
+  /*border-right: 30px; */
+}
+.circle{
+  /*transform: rotate(14deg);*/
+  border-radius: 50%;
+  background: tomato;
+  width: 100%;
+  padding-bottom: 100%;
+  text-align: center;
+  font-size: 1em;
+  position: relative;
+  /*border: 5px solid black;*/
+}
+.circle p{
+  height: 0;
+  top: 50%;
+  left: 5%;
+  position: absolute;
+  font-size: 1.5em;
+  text-align: center;
+  /*left: 70%;*/
+}
+
+.service{
+  height: 250px;
+  width: 250px;
+  margin: 3%;
+  position: relative;
+}
+
+.services-icons{
+  height: 25vh;
+  background: #444;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.home-visits{
+  background: #66CCFF;
+  color: #000080;
+}
+.transition-assistance{
+  background: #0099CC;
+  color: #003399;
+}
+.advocacy{
+  background: #003399;
+  color: #0099CC;
+}
+.respite-care{
+  background: #000080;
+  color: #66CCFF;
 }
 /*step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/

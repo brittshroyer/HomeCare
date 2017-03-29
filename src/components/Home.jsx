@@ -10,7 +10,7 @@ class Home extends Component{
     }
   }
   componentDidMount(){
-    var services = ['Relief RN', 'Personalized Health Plan', 'Transition Assistance', 'Hospital Stay Enhancement', 'Advocacy and Guidance', 'Respite Care']
+    var services = ['Home Visits', 'Personalized Health Plan', 'Transition Assistance', 'Hospital Stay Enhancement', 'Advocacy and Guidance', 'Respite Care']
     let i=0;
     var that = this;
     setInterval(function(){

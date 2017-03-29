@@ -14,7 +14,7 @@ class Hamburger extends Component {
         <RadiumLink className="menu-item" href="/#">Home</RadiumLink>
         <RadiumLink className="menu-item" href="/#/backstory">Backstory</RadiumLink>
         <RadiumLink className="menu-item" href="/#/approach">Mission</RadiumLink>
-        <RadiumLink className="menu-item" href="/#/testimonials">Testimonials</RadiumLink>
+        <RadiumLink className="menu-item" href="/#/testimonials">Services</RadiumLink>
         <RadiumLink className="menu-item" href="/#/contact">Contact</RadiumLink>
       </Menu>
     )
