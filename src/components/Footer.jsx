@@ -5,7 +5,7 @@ class Footer extends Component{
     return(
       <div className="footer">
         <p id="title">Patty Shroyer&nbsp; | &nbsp;BSN & RN</p>
-        <p>Nursing Care and Advocacy Services for Your Loved Ones</p>
+        <p className="footer-tag">Nursing Care and Advocacy Services for Your Loved Ones</p>
         <p id="mobile-footer-title">Patty Shroyer&nbsp; | &nbsp;BSN & RN</p>
       </div>
     )

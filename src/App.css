@@ -93,7 +93,7 @@ li :active { text-decoration: none; color: black; }
   text-align: center;
 }
 .overlay p{
-  font-size: 35px;
+  font-size: 45px;
   color: #FDFDFD;
   font-family: 'Raleway', sans-serif;
   text-shadow: 3px 1px 1px black;
@@ -118,7 +118,7 @@ li :active { text-decoration: none; color: black; }
   align-items: center;
   justify-content: center;
   font-size: 10px;
-  overflow: hidden;
+  overflow: scroll;
 }
 .bioSummary p{
   width: 90%;
@@ -146,6 +146,7 @@ li :active { text-decoration: none; color: black; }
   color: #E6E6FA;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
+  overflow: hidden;
 }
 .myInfo{
   font-size: 30px;
@@ -338,5 +339,31 @@ li :active { text-decoration: none; color: black; }
 #outer-container{
   background: #444;
 }
-
-/*.step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/
+.footer-tag{
+  margin-top: 2%;
+}
+.illness{
+  font-style: italic;
+}
+.approach{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+  text-align: center;
+  overflow: scroll;
+  background: #778899;
+}
+.case-header{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 1% 0 1% 0;
+}
+.case-for-home, .proposal, .mission-statement{
+  font-size: 20px;
+  margin: 1% 30px 2% 30px;
+  /*margin: -75px 20px -20px 20px;*/
+}
+/*step1{  margin-top: 40px; } .step2{margin-top: 20px;} .step3{ margin-top: none;} .step4{margin-top: -20px;} .step5{margin-top: -40px;}*/

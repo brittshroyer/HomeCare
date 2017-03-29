@@ -22,7 +22,10 @@
   #title{
     display: none;
   }
-  .backstory-text{
+  .case-header{
+    font-size: 25px;
+  }
+  .backstory-text, .case{
     font-size: 16px;
   }
 }
@@ -31,6 +34,8 @@
   .bm-burger-button{
     top: 3%;
     right: 6%;
+    height: 28px;
+    width: 33px;
   }
   .mission{
     width: 100%;
@@ -46,9 +51,12 @@
   .footer{
     height: 15vh;
     margin-top: 0;
-    font-size: 15px;
+    font-size: 18px;
     flex-direction: column;
     text-align: center;
+  }
+  .approach{
+    height: 85vh;
   }
   .bioSummary{
     width: 100%;
@@ -66,6 +74,9 @@
   }
   .App-header h1{
     margin-left: 20px;
+  }
+  .case, .backstory-text{
+    font-size: 14px;
   }
 
 }
@@ -97,6 +108,12 @@
   .bioSummary{
     height: 110vh;
   }
+  .case-header{
+    font-size: 20px;
+  }
+  .case{
+    font-size: 12px;
+  }
 }
 
 /*iphone 5 screen*/
@@ -109,7 +126,7 @@
     width: 24px;
   }
 
-  .bioSummary p{
+  .bioSummary p, {
     font-size: 13.5px;
   }
   .bioSummary h2{
@@ -122,7 +139,7 @@
     height: 70vh;
   }
 
-  .overlay p {
+  .overlay p{
     font-size: 25px;
   }
 
