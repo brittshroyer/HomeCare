@@ -30,7 +30,6 @@ body{
 }
 .App-header h1{
   font-size: 75px;
-  color: #2E0854;
   color: #551A8B;
   font-weight: bold;
   margin-left: 10px;
@@ -52,10 +51,10 @@ body{
 
 
 }
-li :visited { text-decoration: none; color: #447299; }
-li :hover { text-decoration: none; color: black;}
-li :focus { text-decoration: none; color: black; }
-li :active { text-decoration: none; color: black; }
+li :visited { text-decoration: none; color: #551A8B; }
+li :hover { text-decoration: none; color: #551A8B;}
+li :focus { text-decoration: none; color: #551A8B; }
+li :active { text-decoration: none; color: #551A8B; }
 /*.home{
   display: flex;
 }*/
@@ -294,7 +293,7 @@ li :active { text-decoration: none; color: black; }
   border-radius: 5% 5% 5% 5%;
   text-align: center;
   position: relative;
-  color: black;
+  color: #551A8B;
   box-shadow: 2px 4px 4px black;
 
 }
