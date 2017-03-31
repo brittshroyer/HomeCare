@@ -89,7 +89,7 @@
   }
   .services-div, .services-icons{
     flex-direction: column;
-    height: 85vh;
+    height: 90vh;
     width: 50vw;
   }
   .services-icons{

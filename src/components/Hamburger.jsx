@@ -10,7 +10,7 @@ class Hamburger extends Component {
 
   render(){
     return(
-      <Menu right noOverlay width={ 175 } isOpen={ false } pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
+      <Menu right noOverlay width={ 175 } isOpen={ false } pageWrapId={ 'page-wrap' } outerContainerId={ 'outer-container' }>
         <RadiumLink className="menu-item" href="/#">Home</RadiumLink>
         <RadiumLink className="menu-item" href="/#/backstory">Backstory</RadiumLink>
         <RadiumLink className="menu-item" href="/#/approach">Mission</RadiumLink>
