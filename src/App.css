@@ -66,7 +66,7 @@ li :active { text-decoration: none; color: #551A8B; }
 .profile-img{
   height: 65vh;;
   width: 30%;
-  background-image: url('../images/HomeCare-headshot.jpg');
+  background-image: url('../images/HomeCare-headshot-min.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -78,7 +78,7 @@ li :active { text-decoration: none; color: #551A8B; }
 .mission{
   height: 100%;
   width: 70%;
-  background-image: url('../images/homecare_hero.jpg');
+  background-image: url('../images/homecare_hero-min.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border-left: 1px solid #1A343B;
@@ -126,7 +126,7 @@ li :active { text-decoration: none; color: #551A8B; }
 .profile-bio{
   height: 100%;
   width: 30%;
-  background-image: url('../images/HomeCare-headshot.jpg');
+  background-image: url('../images/HomeCare-headshot-min.jpg');
   background-repeat: no-repeat;
   left: 0;
   bottom: 0;
@@ -148,7 +148,35 @@ li :active { text-decoration: none; color: #551A8B; }
   font-family: 'Raleway', sans-serif;
   overflow: hidden;
 }
+.contact{
+  height: 75vh;
+  background-image: url('../images/riverside-min.jpg');
+  background-size: 100vw 75vh;
+  filter: grayscale(65%);
+}
 .myInfo{
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px black;
+
+
+}
+.myInfo h2{
+  font-size: 60px;
+  /*font-size: 4em;*/
+  margin-bottom: 110px;
+  font-weight: 900;
+}
+.myInfo p{
+  font-size: 30px;
+  font-weight: 900;
+}
+/*.myInfo{
   font-size: 30px;
   margin: 10px;
 }
@@ -222,7 +250,7 @@ li :active { text-decoration: none; color: #551A8B; }
   background-color: #E6E6FA;
   opacity: .85;
   border: 1px solid black;
-}
+}*/
 
 .menu-item{
   line-height: 50px;
