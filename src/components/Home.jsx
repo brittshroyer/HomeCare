@@ -10,7 +10,7 @@ class Home extends Component{
     }
   }
   componentDidMount(){
-    var services = ['Home Visits', 'Personalized Health Plan', 'Transition Assistance', 'Hospital Stay Enhancement', 'Advocacy and Guidance', 'Respite Care']
+    var services = ['Home Visits', 'Personalized Health Plan', 'Transition Assistance', 'Hospital Stay Enhancement', 'Advocacy and Guidance', 'Respite Care', 'Wellness Education']
     let i=0;
     var that = this;
     setInterval(function(){
@@ -22,7 +22,7 @@ class Home extends Component{
       if(i>=services.length){
         i = 0;
       }
-    }, 3000);
+    }, 2000);
   }
   render(){
     return(

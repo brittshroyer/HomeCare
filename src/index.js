@@ -10,7 +10,7 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 import Approach from './components/Approach.jsx';
-import Testimonials from './components/Testimonials.jsx';
+import Services from './components/Services.jsx';
 
 
 ReactDOM.render(
@@ -20,7 +20,7 @@ ReactDOM.render(
       <Route path="/backstory" component={About} />
       <Route path="/contact" component={Contact} />
       <Route path="/approach" component={Approach} />
-      <Route path="/testimonials" component={Testimonials} />
+      <Route path="/services" component={Services} />
     </Route>
 
   </Router>),
