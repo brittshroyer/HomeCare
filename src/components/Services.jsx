@@ -83,7 +83,7 @@ class Services extends Component{
             <i className="fa fa-group fa-5x" aria-hidden="true"></i>
           </div>
           <div id="respite">
-            <i className="fa fa-bed fa-5x" aria-hidden="true"></i>
+            <i className="fa fa-thermometer-three-quarters fa-5x" aria-hidden="true"></i>
           </div>
         </div>
 
@@ -92,7 +92,7 @@ class Services extends Component{
             <h2>Home Visits</h2>
             <p className="blurb">
             -Physical and psychosocial assessment<br></br>
-            -obtain a detailed health history<br></br>
+            -Obtain a detailed health history<br></br>
             -Devise an individualized plan of care<br></br>
             -Manage symptoms of chronic illnesses, teach them about their diagnosis and intervene if changes occur<br></br>
             -Assess home living conditions and implement specific fall prevention strategies<br></br>
@@ -121,7 +121,7 @@ class Services extends Component{
           </p>
           <p id="respite-care-blurb">
             <h2>Respite Care</h2>
-            <p className="blurb">Temporary care of loved ones to provide relief for their usual caregivers. Please call me to discuss how I can best suit your needs.</p>
+            <p className="blurb">Temporary care of loved ones to provide relief for their usual caregivers.</p>
           </p>
         </div>
       </div>

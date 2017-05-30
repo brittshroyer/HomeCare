@@ -401,10 +401,11 @@ li :active { text-decoration: none; color: #551A8B; }
   /*margin: -75px 20px -20px 20px;*/
 }
 .services-container{
-
+  height: 550px;
 }
 .services-div{
-  height: 50vh;
+  height: 300px;
+  margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -447,7 +448,7 @@ li :active { text-decoration: none; color: #551A8B; }
 }
 
 .services-icons{
-  height: 25vh;
+  height: 115px;
   background: #444;
   display: flex;
   align-items: flex-start;
@@ -471,7 +472,7 @@ li :active { text-decoration: none; color: #551A8B; }
   color: #66CCFF;
 }
 .service-description{
-  background: #8d6fa8;
+  background: #ac5050;
   width: 100%;
   height: 400px;
   display: flex;

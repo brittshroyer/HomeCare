@@ -26,15 +26,19 @@ class Home extends Component{
   }
   render(){
     return(
-      <div className="home">
-        <ProfilePic />
-        <div className="mission">
-          <div className="overlay">
-            <p>{this.state.service}</p>
+      <div>
+        <div className="home">
+          <ProfilePic />
+          <div className="mission">
+            <div className="overlay">
+              <p>{this.state.service}</p>
+            </div>
           </div>
         </div>
-      <Footer />
+        <Footer />
       </div>
+
+
     )
   }
 }
